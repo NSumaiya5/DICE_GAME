@@ -1,0 +1,50 @@
+*{
+     margin:0; padding:0; 
+     font-family: 'Langar', cursive;
+}
+
+body{ 
+	background-color:#343D46;
+}
+
+.container{ 
+	width: 70%; 
+	margin: auto; 
+	text-align: center;
+}
+
+.dice{ 
+	text-align:center; 
+	display: inline-block;
+}
+
+h1{
+    margin: 30px;
+    text-shadow: 5px 5px white;
+    font-size: 6rem;
+    color: #CB000C;
+}
+
+p{
+  font-size: 2rem; color: #FD6A88; 
+  text-shadow: 1px 1px white;
+}
+
+button{
+margin-top: 10px;
+width: 125px;
+height:50px;
+background: linear-gradient(135deg,  #fc3e05 0%,#91027b 44%,#e3ef00 100%); 
+color: white;
+ border:none;
+}
+
+button:hover{
+
+background: linear-gradient(135deg,  #2e04e8 0%,#04d8b1 44%,#dd1200 100%); 
+transform: scale(1.1);
+}
+
+img{
+ width: 75%;
+}     
